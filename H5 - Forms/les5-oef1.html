@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les5-oef1</title>
+
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        
+        input[type=text]{
+            background-color: aqua;
+        }
+
+        .backgroundcolorInput [type=text]{
+            background-color:lightblue;
+
+        }
+
+        .backgroundcolorInput :focus{
+            background-color: white;
+        }
+        
+
+        form{
+            width: 40%;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <form method="post" action="https://tm-statweb.be/forms.php">
+        <div>
+        <label for="voornaam" class="backgroundcolorInput">Voornaam
+        <input type="text" name="voornaam" id="voornaam" placeholder="Voornaam" /></label>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="familienaam" class="backgroundcolorInput">Familienaam
+        <input type="text" name="familienaam" id="familienaam" placeholder="Familienaam" /></label>
+        </div>
+
+        <br>
+
+        <input type="submit" value="Registeren" id="registreren" name="registreren" />
+        </form>
+</body>
+</html>

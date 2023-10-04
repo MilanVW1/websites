@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les5-oef2</title>
+</head>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    
+        form {
+            width: 50%;
+            
+        }
+
+        input{
+            border-radius: 15px;
+            box-shadow: 5px 5px lightgray;
+            margin: auto;
+            padding: 2px;
+            width: 50%;
+            margin: 1px;
+            position: center;
+        }
+
+        input[type=submit]{
+            text-align: center;
+            width: 50%;
+        }
+
+</style>
+
+<body>
+    <form method="post" action="https://tm-statweb.be/forms.php">
+
+    <div>
+        <label for="voornaam">Voornaam:
+            <br>
+            <input type="text" name="voornaam" id="voornaam" placeholder="bv. Jan" />
+        </label>
+    </div>
+    
+    <div>
+        <label for="familienaam">Familienaam:
+            <br>
+            <input type="text" name="familienaam" id="familienaam" placeholder="bv. Peeters" />
+        </label>
+
+    </div>
+        <label for="email">Gebruikersnaam:
+            <br>
+            <input type="email" name="emailadres" id="emailadres" placeholder="mail@thomasmore.be" />
+        </label>
+
+    <div>
+        <label for="nickname">Nickname:
+            <br>
+            <input type="text" name="nickname" id="nickname" minlength="5" maxlength="15" required />
+        </label>
+    </div>
+    
+
+    <div>
+        <label for="paswoord">Paswoord:
+            <br>
+            <input type="password" name="paswoord" id="paswoord" required/>
+        </label>
+    </div>
+
+    <div>
+        <label for="repeatpaswoord">Herhaal paswoord:
+            <br>
+            <input type="password" name="repeatpaswoord" id="repeatpaswoord" required/>
+            <br>
+        </label>
+    </div>
+    <input type="submit" value="Registeren" />
+    </form>
+</body>
+</html>

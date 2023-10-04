@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style> 
+        table{
+            border-width: 1px solid;
+            border-collapse: collapse;
+        }
+
+        .tableheader{
+            background-color: #03283B ;
+            color: white;
+            font-size: medium;
+            font-weight: bold;
+            text-align: center;
+        }
+    
+        tr{
+            text-align: center;
+        }
+
+        table, .tableheader, tr{
+            padding: 15px;
+        }
+
+        .caption{
+            caption-side: bottom;
+        } 
+
+        
+        .style-hr{
+            border: none;
+            height: 1px;
+            background-color: #03283B;
+            width: auto;
+        }
+            
+    
+    </style>
+</head>
+<body>
+    <h1>Webcursus HTML</h1>
+    <hr class="style-hr">
+    <table border="1">
+        <caption class="caption">Overzicht van entiteiten</caption>
+        <tr>
+            <td class="tableheader">Entiteit</td>
+            <td class="tableheader">Betekenis</td>
+        </tr>
+        <tr></tr>
+            <td>&amp;</td>
+            <td>ampersand</td>
+        <tr>   
+            <td>&lt;</td>
+            <td>less-than</td> 
+        </tr>
+
+        <tr>   
+            <td>&gt;</td>
+            <td>greater-than</td>
+        </tr>
+
+        <tr>
+            <td>&copy;</td>
+            <td>copyright</td>
+        </tr>
+
+        <tr>
+            <td>&euro;</td>
+            <td>euro</td>
+        </tr>
+
+
+    </table>
+</body>
+</html>

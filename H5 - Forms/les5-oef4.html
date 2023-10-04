@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les5-oef4</title>
+<style>
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        size: 75%;
+    }
+
+    form{
+        width: 20%;
+    }
+
+    input{
+        color: white;
+        background-color: #FB6430;
+        box-shadow: 5px 5px lightgray;
+        width: 150px;
+        margin: auto;
+        height: 20px
+        
+    }
+
+    ::placeholder{
+        color: white;
+    }
+
+    select{
+        background-color: #FB6430;
+        width: 150px;
+        height: 20px;
+    }
+
+    input[type=submit]{
+        width: 150px;
+        height: 20px;
+    }
+
+    option{
+        background-color: #edb8a7;
+    }
+    </style>
+</head>
+<body>
+    <form method="post" action="https://tm-statweb.be/forms.php">
+        <div>
+            <label for="voornaam">Voornaam:
+            <br>
+                <input type="text" name="voornaam" id="voornaam" placeholder="Voornaam" />
+            </label>
+        </div>
+
+        <div>
+            <label for="familienaam">Familienaam:
+            <br>
+                <input type="text" name="familienaam" id="familienaam" placeholder="Familienaam" />
+            </label>
+        </div>
+
+        <div>
+            <label for="html">Kies een auto:
+               <br> 
+                <select name="auto" id="auto">
+                    <option></option>
+                    <option value="Ford">Ford</option>
+                    <option value="Peugeot">Peugeot</option>
+                    <option value="Volvo">Volvo</option>
+                    <option value="Skoda">Skoda</option>
+                    <option value="Saab">Saab</option>
+                    <option value="Mercedes">Mercedes</option>
+                    <option value="Audi">Audi</option>
+                </select>
+            </label>
+        </div>
+        
+        <br>
+        <input type="submit" value="Registreren">
+    </form>
+</body>
+</html>
