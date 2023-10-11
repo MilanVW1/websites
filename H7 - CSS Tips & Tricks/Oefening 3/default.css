@@ -1,0 +1,33 @@
+body{
+    display: block;
+}
+
+.column1{
+    width: 30%;
+    padding: 15px;
+    float: left;
+
+}
+
+.column2{
+    width: 70%;
+    padding: 15px;
+    float: right;
+
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (width < 600px) {
+    .column1 {
+        width: 100%;
+    }
+
+    .column2 {
+        width: 100%;
+    }
+}

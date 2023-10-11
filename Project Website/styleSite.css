@@ -1,0 +1,90 @@
+/* CSS voor algemene layout */
+.containerVoorTitel{
+    display: flex;
+    display: grid;
+    align-items: center;
+    width: auto;
+    height: 180px;
+    border-radius: 3px;
+    background-color: #bfd8bd;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.tekstTitelBox{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.kleineTekst{
+    size: 40%;
+}
+
+i{
+    float: left;
+    color: black;
+    size: 25%;
+}
+
+
+.navigation-menu{
+    list-style-type: square;
+    padding: 0;
+    
+}
+
+.navigation-menu li{
+    background-color: #edeec9;
+    color: black;
+    padding: 5%;
+    margin: auto;
+    border-radius: 6px;
+    font-size: medium;
+    align-items: center;
+    display: inline-block;
+    margin-right: 0px;
+    width: auto;
+    height: 10px;
+
+}
+
+.navigation-menu li:hover{
+    background-color: #dde7c7;
+}
+
+.containerVoorTekst{
+    display: flex;
+    display: grid;
+    width: auto;
+    border-radius: 3px;
+    margin: auto;
+    background-color: #e2f3e1;
+    height: 1000px
+}
+
+#tekstVoorContainer2{
+    text-align: left;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h2{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.fotoVanMezelf{
+    float: right;
+    border-radius: 5px;
+}
+
+
+
+/* CSS voor Hobby-pagina */
+.fotoGamen{
+    float: right;
+    border-radius: 5px;
+}

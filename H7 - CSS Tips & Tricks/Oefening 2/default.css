@@ -1,0 +1,38 @@
+.divYellow{
+    background-color: yellow;
+    height: 100px;
+    width: 50%;
+    display: block;
+    text-align: center;
+
+    position: absolute;
+    z-index: 1;
+   
+}
+
+.divRed{
+    background-color: red;
+    height: 200px;
+    width: 75%;
+    padding: 5px;
+    display: block;
+
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.divWhite{
+    background-color: white;
+    height: 300px;
+    width: 50%;
+    padding: 5px;
+    display: block;
+    
+    z-index: -2;
+    position: absolute;
+}
+
+body{
+    background-color: grey;
+}
