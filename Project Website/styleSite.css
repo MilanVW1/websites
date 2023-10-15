@@ -57,7 +57,7 @@ i{
     width: auto;
     height: 30px;
     vertical-align: middle;
-    font-size: large
+    font-size: large;
 
 }
 
@@ -69,7 +69,13 @@ i{
     border-radius: 3px;
     margin: auto;
     background-color: #e2f3e1;
-    height: auto;
+    height: auto; /* hoogte naar een bepaald aantal pixels zetten eventueel */
+
+  /*overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    scrollbar-track-color: aqua; */
+
 }
 
 #tekstVoorContainer2{
@@ -77,6 +83,7 @@ i{
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    margin-left: 15px;
 
 }
 
@@ -84,11 +91,16 @@ h2{
     color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
+    margin-left: 15px;
 }
 
 a{
     color: black;
     text-decoration: none;
+}
+
+h3{
+    margin-left: 15px;
 }
 
 
@@ -184,7 +196,7 @@ tr, td{
     text-align: left;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 18px;
 
 }
 
