@@ -25,14 +25,7 @@ i{
     float: left;
     color: black;
     size: 25%;
-    margin-bottom: 10px;
-}
-
-.i-achter{
-    float: right;
-    color: black;
-    size: 25%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 
@@ -145,11 +138,11 @@ h3{
 .fotoGamen{
     float: right;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 35px;
     size: 50%;
     border-radius: 5px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 
 .fotoProgrammeren{
@@ -175,6 +168,11 @@ tr, td{
     width: auto;
 }
 
+table{
+   margin-left: 500px;
+   vertical-align: middle;
+}
+
 
 
 /* CSS voor ervaringen */
@@ -193,11 +191,11 @@ tr, td{
 .fotoHogeSchool{
     float: right;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 35px;
     size: 50%;
     border-radius: 5px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 
 /* CSS vo Contact */
@@ -211,15 +209,15 @@ tr, td{
 
 label{
     border-radius: 2px;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
 }
 
 .logoTM{
     float: right;
     margin-right: 100px;
     border-radius: 25px;
-    width: 480px;
-    height: 250px;
+    width: 460px;
+    height: 230px;
     margin-top: 50px;
 }
 
