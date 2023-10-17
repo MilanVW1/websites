@@ -25,7 +25,16 @@ i{
     float: left;
     color: black;
     size: 25%;
+    margin-bottom: 10px;
 }
+
+.i-achter{
+    float: right;
+    color: black;
+    size: 25%;
+    margin-bottom: 10px;
+}
+
 
 .navContainer{
     background-color: #edeec9;
@@ -70,13 +79,8 @@ i{
     margin: auto;
     background-color: #e2f3e1;
     height: auto; /* hoogte naar een bepaald aantal pixels zetten eventueel */
-
-  /*overflow-y: scroll;
-    scroll-behavior: smooth;
-    scroll-snap-type: mandatory;
-    scrollbar-track-color: aqua; */
-
 }
+
 
 #tekstVoorContainer2{
     text-align: left;
@@ -94,10 +98,12 @@ h2{
     margin-left: 15px;
 }
 
-a{
+
+.a-navigatiemenu{
     color: black;
-    text-decoration: none;
+    text-decoration: none; /* css voor links navigation menu */
 }
+
 
 h3{
     margin-left: 15px;
@@ -108,11 +114,12 @@ h3{
 .fotoVanMezelf{
     float: right;
     border-radius: 5px;
-    size: auto;
-    margin-right: 25px;
+    height: 400px;
+    width: 400px;
+    margin-right: 45px;
     margin-left: 25px;
     position: relative;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .tipTekst{
@@ -153,6 +160,7 @@ h3{
     border-radius: 5px;
     width: 300px;
     height: 300px;
+    margin-bottom: 10px;
 }
 
 table.border-spacing{
@@ -167,7 +175,7 @@ tr, td{
     width: auto;
 }
 
-/* tabel eventueel aanpassen naar een listing */
+
 
 /* CSS voor ervaringen */
 .fotoMiddelBaar{
@@ -178,6 +186,7 @@ tr, td{
     border-radius: 5px;
     width: 300px;
     height: 300px;
+    margin-bottom: 10px;
     
 }
 
