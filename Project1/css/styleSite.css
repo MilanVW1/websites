@@ -175,14 +175,16 @@ table.border-spacing{
 
 tr, td, th{
     text-align: center;
-    width: auto;
     border-style: solid;
     border-width: thin;
+    padding: auto;
+
 }
 
 .tabelMidden{
-   margin-left: 500px;
+   margin-left: 450px;
    vertical-align: middle;
+   align-items: center;
 }
 
 ul{
@@ -193,6 +195,7 @@ table{
     border-style:solid;
     border-color: black;
     border-width: 2px;
+    border-collapse: collapse;
 }
 
 
