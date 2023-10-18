@@ -84,6 +84,16 @@ i{
 
 }
 
+.tekstVoorContainer2{
+    text-align: left;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: 15px;
+
+}
+
+
 h2{
     color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -158,19 +168,31 @@ h3{
 
 table.border-spacing{
     margin: 1em;
-    border: 1px, black;
+    border: 2px, black;
     border-collapse: separate;
     border-spacing: 5px, 3px;
 }
 
-tr, td{
+tr, td, th{
     text-align: center;
     width: auto;
+    border-style: solid;
+    border-width: thin;
+}
+
+.tabelMidden{
+   margin-left: 500px;
+   vertical-align: middle;
+}
+
+ul{
+    list-style:disc;
 }
 
 table{
-   margin-left: 500px;
-   vertical-align: middle;
+    border-style:solid;
+    border-color: black;
+    border-width: 2px;
 }
 
 
@@ -234,3 +256,4 @@ label{
     height: 200px;
     margin-bottom: 1000px;
 }
+
