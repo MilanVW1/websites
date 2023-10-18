@@ -55,7 +55,7 @@ i{
     align-items:center;
     display: inline-block;  /*probeer om box erond groter te maken */
     margin-right: 120px;
-    margin-left: 20px;
+    margin-left: 40px;
     width: auto;
     height: 30px;
     vertical-align: middle;
@@ -178,13 +178,17 @@ tr, td, th{
     border-style: solid;
     border-width: thin;
     padding: auto;
+    width: 25%;
+    border-collapse: collapse;
 
 }
 
 .tabelMidden{
-   margin-left: 450px;
-   vertical-align: middle;
+   margin-left: 80px;
+   vertical-align: center;
    align-items: center;
+   width: auto;
+   
 }
 
 ul{
@@ -194,11 +198,9 @@ ul{
 table{
     border-style:solid;
     border-color: black;
-    border-width: 2px;
-    border-collapse: collapse;
+    border-width: 3px;
+
 }
-
-
 
 /* CSS voor ervaringen */
 .fotoMiddelBaar{
@@ -223,7 +225,7 @@ table{
     height: 250px;
 }
 
-/* CSS vo Contact */
+/* CSS voor Contact */
 .tekst-contact{
     text-align: left;
     color: black;
@@ -247,6 +249,7 @@ label{
 }
 
 
+
 /* CSS voor CV */
 .fotoVanMezelfCV{
     float: left;
@@ -257,6 +260,6 @@ label{
     position: relative;
     width: 200px;
     height: 200px;
-    margin-bottom: 1000px;
+    margin-bottom: 480px;
 }
 
