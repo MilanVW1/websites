@@ -7,6 +7,7 @@
 
     <link href="C:\Users\milna\Documents\websites\Project2\css\bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/stijlSite2.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-dark">
@@ -40,7 +41,25 @@
      </nav>
 
      <main>
-        <!--content contact pagina gaat hier-->
+        <form>
+            <div class="mb-3">
+                <label for="Naam" class="form-label">Naam:</label>
+                <input type="text" class="form-control" id="Naam" required>
+            </div>
+            <div class="mb-3">
+                <label for="Voornaam" class="form-label">Voornaam:</label>
+                <input type="text" class="form-control" id="Voornaam" required>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email-adres</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Je email-adres word nooit met iemand anders gedeeld.</div>
+            </div>
+            <div class="mb-3">
+                <p>Vraag:</p>
+                <textarea name="vraag" id="vraag" cols="30" rows="10"></textarea>
+            <button type="submit" class="btn btn-primary">Verzenden</button>
+          </form>
      </main>
 
      <footer>
