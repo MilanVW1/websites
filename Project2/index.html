@@ -6,40 +6,81 @@
     <title>Startpagina</title>
 
     <link href="C:\Users\milna\Documents\websites\Project2\css\bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stijlSite2.css">
 </head>
 <body>
-    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" class="container-fluid">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="">Milan VW</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Start</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cv.html">CV</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="hobbys.html">Hobby's & Interesses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="ervaringen.html">Ervaringen</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search"></form>
-                        <input class="form-control me-2" type="search" placeholder="Zoeken" aria-label="Zoeken">
-                        <button class="btn btn-outline-success" type="submit">Zoeken</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </nav>
+  <nav class="navbar navbar-expand-lg bg-dark">
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Milan VW</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Startpagina</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cv.html">CV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobbys.html">Hobby's & Interesses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ervaringen.html">Ervaringen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   </nav>
+
+    <main class="positieJumbotron">
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <img src="img/foto_van_mezelf.jpeg" alt="foto-van-mezelf">
+          <h2>Welkom!</h2>
+          <p>Hallo! Ik ben Milan Van Winkel en ik ben student aan de Thomas More hogeschool in Campus Lier. Deze website is een portfolio van mezelf, waar je informatie over mij kunt terug vinden. Informatie zoals hobby's, interesses, ervaringen en zelfs mijn cv, vind u hier allemaal terug.
+            U kan de website navigeren door op de paginas, hierboven, op de navigatiebalk te klikken. Op elke pagina kan u meer informatie terug vinden bij dat onderdeel. Heeft u na het bekijken van dit portfolio nog vragen, of wilt u mij gewoon weg contacteren? 
+            Dan kan dat door 'Contact' te selecteren, of door op de knop hieronder te drukken.</p>
+            
+          <a href="contact.html"><button class="btn btn-outline-secondary" href="contact.html" type="button" value="redirect" href="contact.html">Neem contact op</button></a>
+          
+        </div>
+      </div>
+    </main>
+
+    <!--3 cards-->
+    <main>
+      <div class="card" style="width: 18rem;">
+        <a href="hobbys.html"><img src="img/foto_gamen.jpg" class="card-img-top" alt="foto_gamen"></a>
+        <div class="card-body">
+          <p class="card-text">Klik op de afbeelding om naar de pagina van 'Hobby's & Interesses' te gaan.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Van Winkel Milan</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/thomasmorebe"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </footer>
+      </div>
+    </footer>
 </body>
 </html>
