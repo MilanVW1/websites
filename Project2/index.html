@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!--button een mooi effect proberen geven-->
   <nav class="navbar navbar-expand-lg bg-dark">
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
@@ -44,7 +45,7 @@
     <main class="positieJumbotron">
       <div class="col-md-6">
         <div class="h-100 p-5 bg-light border rounded-3">
-          <img src="img/foto_van_mezelf.jpeg" alt="foto-van-mezelf">
+          <img src="img/foto_van_mezelf.jpeg" alt="foto-van-mezelf" class="img-jumbotron">
           <h2>Welkom!</h2>
           <p>Hallo! Ik ben Milan Van Winkel en ik ben student aan de Thomas More hogeschool in Campus Lier. Deze website is een portfolio van mezelf, waar je informatie over mij kunt terug vinden. Informatie zoals hobby's, interesses, ervaringen en zelfs mijn cv, vind u hier allemaal terug.
             U kan de website navigeren door op de paginas, hierboven, op de navigatiebalk te klikken. Op elke pagina kan u meer informatie terug vinden bij dat onderdeel. Heeft u na het bekijken van dit portfolio nog vragen, of wilt u mij gewoon weg contacteren? 
@@ -57,29 +58,52 @@
     </main>
 
     <!--3 cards-->
+    <!--PROBEREN OM LATER DE FOTO'S TERUG NORMAAL TE KRIJGEN-->
     <main>
-      <div class="card" style="width: 18rem;">
-        <a href="hobbys.html"><img src="img/foto_gamen.jpg" class="card-img-top" alt="foto_gamen"></a>
-        <div class="card-body">
-          <p class="card-text">Klik op de afbeelding om naar de pagina van 'Hobby's & Interesses' te gaan.</p>
+      <div class="card-group"> 
+        <div class="card"> <!--Card 1-->
+          <a href="hobbys.html"><img src="img/foto_programmeren.jpg" class="card-img-top" class="gelinkteFotos" alt="foto_programmeren"></a>
+          <div class="card-body">
+            <h5 class="card-title">Hobby's & Interesses</h5>
+            <p class="card-text">Door op de foto hierboven te klikken, kunt u navigeren naar de pagina 'Hobby's & Interesses' waar u een overzicht terug vindt van al mijn hobby's en ook interesses, die allemaal verder uitgelegd zijn.
+                                 Wilt u naar deze pagina gaan? Klik dan op de foto hierboven!</p>
+          </div>
+        </div>
+        <div class="card"> <!--Card 2-->
+          <img src="img/foto_van_campuslier.jpg" class="card-img-top" class="gelinkteFotos" alt="tm-campuslier">
+          <div class="card-body">
+            <h5 class="card-title">Ervaringen</h5>
+            <p class="card-text">Door op de foto hierboven te klikken, kunt u navigeren naar de pagina 'Ervaringen' waar u een overzicht kan vinden over mijn tot nu toe school ervaringen. 
+                                 Wilt u naar deze pagina gaan? Klik dan op de foto hierboven!</p>
+          </div>
+        </div>
+        <div class="card"> <!--Card 3-->
+          <a href="cv.html"><img src="img/foto_van_mezelf.jpeg" class="card-img-top" class="gelinkteFotos" alt="foto-van-mezelf"></a>
+          <div class="card-body">
+            <h5 class="card-title">CV</h5>
+            <p class="card-text">Door op de foto hierboven te klikken, kunt u navigeren naar de pagina 'CV', waar u mijn cv kan terug vinden, met alle informatie in die u moet weten.
+                                 Wilt u naar deze pagina gaan? Klik dan op de foto hierboven!</p>
+          </div>
         </div>
       </div>
     </main>
 
+
+    <!--Footer-->
     <footer>
       <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <a href="index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
               <svg class="bi" width="30" height="24"></svg>
             </a>
             <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Van Winkel Milan</span>
           </div>
       
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/thomasmorebe"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            <li class="ms-3"><img class="text-body-secondary" class="footerIcoonLI" src="/"><svg class="bi" width="24" height="24"><use xlink:href="https://be.linkedin.com/school/thomas-more-hogeschool/"></use></svg></img></li>
+            <li class="ms-3"><img class="text-body-secondary" class="footerIcoonIG" src="/"><svg class="bi" width="24" height="24"><use xlink:href="https://www.instagram.com/thomasmore.be/?hl=en"></use></svg></img></li>
+            <li class="ms-3"><img class="text-body-secondary"  class="footerIcoonFB" src="/"><svg class="bi" width="24" height="24"><use xlink:href="https://www.facebook.com/ThomasMoreBE/"></use></svg></img></li>
           </ul>
         </footer>
       </div>
