@@ -88,9 +88,17 @@ body{
 }
 
 .img-carousel{
-
-    height: 500px;
-
+    height: auto !important;
+    width: auto !important;
+    border-radius: 1px !important;
 }
 
+.text{
+    margin-left: 15px;
+}
 
+.carousel-inner{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
