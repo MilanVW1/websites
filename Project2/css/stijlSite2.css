@@ -1,5 +1,6 @@
 body{
     align-items: center;
+    /*background-color: #;*/
 }
 
 
@@ -27,8 +28,8 @@ body{
 }
 
 .positieJumbotron{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 75px;
+    margin-bottom: 75px;
     display: flex;
     width: auto;
     height: auto;
@@ -41,37 +42,31 @@ body{
 
 /*icoontjes footer*/
 .footerIcoonFB{
-    float: right;
-    width: 24px;
-    height: 24px;
+    margin-right: 5px !important;
 }
 
 .footerIcoonLI{
-    float: right;
-    width: 24px;
-    height: 24px;
+    margin-right: 5px !important;
 }
 
 .footerIcoonI{
-    float: right;
-    width: 24px;
-    height: 24px;
+    margin-right: 5px !important;
 }
 
 /*foto's voor cards start*/
 .card-img-top
 {
-
-    width: auto;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
     height: 250px;
     vertical-align: middle;
-
 }
 
 .gelinkteFotos{
-    width: auto;
+    width: fit-content;
     height: 250px;
-    vertical-align: middle;
+    justify-content: center;
 }
 
 .card :hover{
@@ -79,11 +74,15 @@ body{
 }
 
 .card{
-    margin-left: 20px;
-    margin-right: 5;
-    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
     border: 5px;
-    border-color: lightgray;
+    border-color: gray;
+    align-items: center;
+    width: auto;
+    padding-top: 10px;
+    
     
 }
 
@@ -101,4 +100,21 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
+}
+
+.accordion-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.alert{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fotoHHVMB{
+    text-align: center;
+    height: auto;
+    width: auto;
+    float: right;
 }
