@@ -33,6 +33,7 @@ body{
     display: flex;
     width: auto;
     height: auto;
+    vertical-align: center;
 }
 
 .navbar-toggler{
@@ -89,7 +90,7 @@ body{
 .img-carousel{
     height: auto !important;
     width: auto !important;
-    border-radius: 1px !important;
+    border-radius: 2px !important;
 }
 
 .text{
@@ -114,7 +115,58 @@ body{
 
 .fotoHHVMB{
     text-align: center;
-    height: auto;
-    width: auto;
-    float: right;
+    height: 260px;
+    width: 500px;
+    float: center;
 }
+
+.tekstTitelH-I{
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+.tekstH-I{
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.cvCarouselFoto{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+
+.splide{
+    margin: 10px;
+}
+/*.cardCVfoto {
+    padding-left: 150px;
+    padding-top: 150px;
+    width: 200px;
+    height: 100px;
+    border: 5px;
+    border-color: lightgray;
+}*/
+
+/*.cardCV {
+    padding-left: 150px;
+    width: 200px;
+    border: 1px;
+    border-color: lightgray;
+}*/
+
+/*.fotoMezelfCV{
+    height: 50px;
+    width: 50px;
+
+}*/
+
+/*.cardContact{
+    padding-left: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 150px;
+    display: flex;
+    borderw;
+}*/
