@@ -70,7 +70,7 @@ body{
     justify-content: center;
 }
 
-.card :hover{
+.card-group :hover{
     background-color: lightgray
 }
 
@@ -78,14 +78,15 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 3px;
-    border: 5px;
-    border-color: gray;
+    border-width: 2px;
+    border-color: lightgray;
     align-items: center;
     width: auto;
     padding-top: 10px;
     
     
 }
+
 
 .img-carousel{
     height: auto !important;
@@ -117,7 +118,7 @@ body{
     text-align: center;
     height: 260px;
     width: 500px;
-    float: center;
+    flex: center;
 }
 
 .tekstTitelH-I{
@@ -140,27 +141,21 @@ body{
 .splide{
     margin: 10px;
 }
-/*.cardCVfoto {
-    padding-left: 150px;
-    padding-top: 150px;
-    width: 200px;
-    height: 100px;
-    border: 5px;
-    border-color: lightgray;
-}*/
 
-/*.cardCV {
-    padding-left: 150px;
-    width: 200px;
-    border: 1px;
-    border-color: lightgray;
-}*/
 
-/*.fotoMezelfCV{
-    height: 50px;
-    width: 50px;
+.fotoVanMezelfCV{
+    border-radius: 200px;
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
 
-}*/
+.cvOpsomming{
+    list-style: disc;
+}
+
+
 
 /*.cardContact{
     padding-left: 150px;

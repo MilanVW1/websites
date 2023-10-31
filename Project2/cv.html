@@ -45,26 +45,70 @@
         </nav>
      </nav>
 
-     <main> <!--slider fixen zodat er 3 foto's op 1 slide staan-->
-      <section class="splide" aria-label="Splide Basic HTML Example">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <img src="img/html.png" alt="html"><li class="splide__slide">HTML</li>
-            <img src="img/css.png" alt="css"><li class="splide__slide">CSS</li>
-            <img src="img/javascript.png" alt="javascript"><li class="splide__slide">JavaScript</li>
-            <img src="img/bootstrap.png" alt="bootstrap"><li class="splide__slide">Bootstrap</li>
-            <img src="img/sql.png" alt=""><li class="splide__slide">SQL</li>
-            <img src="img/csharp.png" alt="c-sharp"><li class="splide__slide">C#</li>
-          </ul>
+     <main>
+      <div class="card mb-3" style="margin: 10px;" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/foto_van_mezelf.jpeg" alt="foto-van-mezelf" style="border-radius: 200px;" width="200px" height="200px" float="left" >
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Over Mij</h5>
+              <p class="card-text">Naam: Milan Van Winkel</p>
+              <p class="card-text">Geboortedatum: 16/11/2005</p>
+              <br>
+              <h5 class="card-title">Opleidingen</h5>
+              <p><u>September 2017 - Juni 2023: </u> Heilig Hart Van Maria Berlaar - Sociale Technische Wetenschappen</p>
+              <p><u>September 2023 - Juni 2025: </u> Thomas More Hogeschool, Campus Lier - Graduaat Programmeren</p>
+              <p>Aangeleerde skills binnen de opleiding:</p>
+                <ul class="cvOpsomming">
+                  <li>Programming Essentials</li>
+                  <li>HTML, CSS, JavaScript, Bootstrap (Websites)</li>
+                  <li>SQL (Databanken)</li>
+                  <li>C# </li>
+                  <li>OO-programming</li>
+                  <li>Programming advanced</li>
+                  <li>Database advanced</li>
+                  <li>...</li>
+                </ul>
+
+                <h5 class="card-title">Talenkennis: </h5>
+                  <ul class="cvOpsomming">
+                      <li>Nederlands</li>
+                      <li>Engels</li>
+                      <li>Frans (miniem)</li>
+                  </ul>
+            </div>
+          </div>
         </div>
-      </section>
 
-      
 
-     </main>
+
+        <section id="main-carousel" class="splide" aria-label="Skills">
+          <div class="splide__track" data-splide='{"type":"loop","perPage":3}'>
+              <ul class="splide__list">
+                <li class="splide__slide" style="text-align: center;">
+                  <img src="img/html.png" alt="html" style="margin-left: auto; margin-right: 20px; width: 200px; height: 200px;">
+                  <img src="img/css.png" alt="css" style="margin-right: 20px; width: 200px; height: 200px;">
+                  <img src="img/bootstrap.png" alt="bootstrap" style="margin-right: auto; width: 200px; height: 200px;">
+                </li>
+  
+                <li class="splide__slide" style="text-align: center;">
+                  <img src="img/javascript.png" alt="javascript" style="width: 200px; height: 200px; margin-left: auto; margin-right: 20px;">
+                  <img src="img/csharp.png" alt="csharp" style="width: 200px; height: 200px; margin-right: 20px;">
+                  <img src="img/sql.png" alt="sql" style="width: 200px; height: 200px; margin-right: auto;">
+                </li>
+              </ul>
+            </div>
+        </section>
+
+      </div>
+
+    
+  </main>
  
 
-    <footer>
+
       <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <div class="col-md-4 d-flex align-items-center">
@@ -81,7 +125,7 @@
           </ul>
         </footer>
       </div>
-    </footer>
+
 
 <script>
   new Splide( '.splide' ).mount();
