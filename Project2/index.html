@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/stijlSite2.css">
     <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="img/favicon-16x16.png">
 </head>
 
 <body>
-  <!--border button laten 'stromen'-->
   <nav class="navbar navbar-expand-lg bg-dark">
       <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid" >
+        <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Milan VW</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,7 +42,7 @@
       </nav>
    </nav>
 
-    <main class="positieJumbotron" style="justify-content: center; vertical-align: middle;">
+    <section class="positieJumbotron" style="justify-content: center; vertical-align: middle;">
       <div class="col-md-6">
         <div class="h-100 p-5 bg-light border rounded-3">
           <img src="img/foto_van_mezelf.jpeg" alt="foto-van-mezelf" class="img-jumbotron">
@@ -51,18 +51,17 @@
             U kan de website navigeren door op de paginas, hierboven, op de navigatiebalk te klikken. Op elke pagina kan u meer informatie terug vinden bij dat onderdeel. Heeft u na het bekijken van dit portfolio nog vragen, of wilt u mij gewoon weg contacteren? 
             Dan kan dat door 'Contact' te selecteren, of door op de knop hieronder te drukken.</p>
             
-          <a href="contact.html"><button class="btn btn-outline-secondary" href="contact.html" type="button" value="redirect" href="contact.html">Neem contact op</button></a>
+          <a href="contact.html"><button class="btn btn-outline-secondary" type="button" value="redirect" style="animation: kloppendeKnop 0.8s linear infinite alternate;">Neem contact op</button></a>
           
         </div>
       </div>
-    </main>
+    </section>
 
     <!--3 cards-->
-    <!--PROBEREN OM LATER DE FOTO'S TERUG NORMAAL TE KRIJGEN-->
     <main>
-      <div class="card-group"> 
+      <div class="card-group" style="margin: 10px;"> 
         <div class="card" class="gelinkteFotos"> <!--Card 1-->
-          <a href="hobbys.html"><img src="img/foto_programmeren.jpg" class="card-img-top"  alt="foto_programmeren"></a>
+          <a href="hobbys.html"><img src="img/foto_programmeren.jpg" class="card-img-top" alt="foto_programmeren"></a>
           <div class="card-body">
             <h5 class="card-title">Hobby's & Interesses</h5>
             <p class="card-text">Door op de foto hierboven te klikken, kunt u navigeren naar de pagina 'Hobby's & Interesses' waar u een overzicht terug vindt van al mijn hobby's en ook interesses, die allemaal verder uitgelegd zijn.
@@ -90,8 +89,7 @@
 
 
     <!--Footer-->
-    <footer>
-      <div class="container">
+    <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <div class="col-md-4 d-flex align-items-center">
             <a href="#" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
@@ -101,13 +99,12 @@
           </div>
       
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><img class="text-body-secondary" class="footerIcoonLI" src="img/linkedin.svg"><svg class="bi" width="24" height="24"><use xlink:href="https://be.linkedin.com/school/thomas-more-hogeschool/"></use></svg></img></li>
-            <li class="ms-3"><img class="text-body-secondary" class="footerIcoonIG" src="img/instagram.svg"><svg class="bi" width="24" height="24"><use xlink:href="https://www.instagram.com/thomasmore.be/?hl=en"></use></svg></img></li>
-            <li class="ms-3"><img class="text-body-secondary" class="footerIcoonFB" src="img/facebook.svg"><svg class="bi" width="24" height="24"><use xlink:href="https://www.facebook.com/ThomasMoreBE/"></use></svg></img></li>
+            <li class="ms-3"><a href="https://be.linkedin.com/school/thomas-more-hogeschool/"><img class="text-body-secondary" class="footerIcoonLI" src="img/linkedin.svg" alt="linkedin"></a><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"></use></svg></li>
+            <li class="ms-3"><a href="https://www.instagram.com/thomasmore.be/?hl=en"><img class="text-body-secondary" class="footerIcoonIG" src="img/instagram.svg" alt="instagram"></a><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></li>
+            <li class="ms-3"> <a href="https://www.facebook.com/ThomasMoreBE/"><img class="text-body-secondary" class="footerIcoonFB" src="img/facebook.svg" alt="facebook"></a><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></li>
           </ul>
         </footer>
       </div>
-    </footer>
     
     
 </body>

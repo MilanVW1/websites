@@ -1,6 +1,6 @@
 body{
     align-items: center;
-    /*background-color: #;*/
+
 }
 
 
@@ -37,21 +37,21 @@ body{
 }
 
 .navbar-toggler{
-    align-self: right;
+    align-items: right;
 }
 
 
 /*icoontjes footer*/
 .footerIcoonFB{
-    margin-right: 5px !important;
+    margin-right: 10px !important;
 }
 
 .footerIcoonLI{
-    margin-right: 5px !important;
+    margin-right: 10px !important;
 }
 
 .footerIcoonI{
-    margin-right: 5px !important;
+    margin-right: 10px !important;
 }
 
 /*foto's voor cards start*/
@@ -115,10 +115,8 @@ body{
 }
 
 .fotoHHVMB{
-    text-align: center;
-    height: 260px;
-    width: 500px;
-    flex: center;
+    height: auto;
+    width: auto;
 }
 
 .tekstTitelH-I{
@@ -153,6 +151,22 @@ body{
 
 .cvOpsomming{
     list-style: disc;
+}
+
+@keyframes kloppendeKnop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); 
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+footer{
+    margin: 10px;
 }
 
 
