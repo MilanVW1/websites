@@ -1,0 +1,142 @@
+body{
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bovenbalk
+{
+    display: flexbox;
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    padding-top: 30px;
+    width: auto;
+    font-weight: bold;
+    color: white;
+}
+
+.titelbalk
+{
+    background-color: #FB6430;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    vertical-align: middle;
+    /*height: 193px;*/
+}
+
+#titelTekstpagina
+{
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.subTekst{
+    font-size: smaller;
+    padding-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.navigatiebalk{ /*probeer deze navigatiebalk mooit tegen andere balk te zetten*/
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flexbox;
+    margin-top: 0;
+}
+
+li
+{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: black;
+}
+
+.active{
+    background-color: white;
+    color: black;
+}
+
+.hoofdcontainer{
+    display: inline-block;
+}
+
+.container1{
+    background-color: #ECECEC;
+    padding: 10px;
+    display: inline-block;
+    width: 506px;  
+    position: relative;
+    float: left;
+    margin-right: 0%;
+
+}
+
+.placeholder1{
+    width: 150px;
+    height: 150px;
+    background-color:#FB6430;
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    /*tekst proberen in het midden te krijgen*/
+}
+
+.kleineTekst2{
+    font-size: smaller;
+}
+
+.container2{
+    background-color: white;
+    height: 2015px;
+    width: auto;
+    display: inline-block;
+    float: right;
+}
+
+.placeholder2{
+    background-color: #FB6430;
+    width: 600px;
+    height: 75px;
+    margin-left: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    /*tekst proberen in het midden te krijgen*/
+}
+
+.footer{
+    display: flexbox;
+    width: auto;
+    height: 110px;
+    text-align: center;
+    vertical-align: bottom, middle;
+    color: black;
+    font-weight: bold;
+    background-color: #DDDD;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+}

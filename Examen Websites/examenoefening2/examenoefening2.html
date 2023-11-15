@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examenoefening 2</title>
+    <script src="https://kit.fontawesome.com/f025e5108b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: blue; color: white !important;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fa-brands fa-x-twitter fa-xs"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Vehicles</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Starship</a></li>
+                  <li><a class="dropdown-item" href="#">Starlink</a></li>
+                  <li><a class="dropdown-item" href="#">Mars</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Launches</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <div style="margin: 45px;">
+          <p style="font-size: xx-large;"><b>Space</b> <i class="fa-brands fa-x-twitter fa-lg"></i></p>
+           <p>Discovering space, one rocket at a time.</p>
+           <button type="button" class="btn btn-danger">Sign up for space</button> <button type="button" class="btn btn-dark"><i class="fa-solid fa-film fa-sm"></i></button>
+           
+           <div class="alert alert-light" role="alert">
+            <p><i class="fa-duotone fa-spinner-third fa-sm"></i>Launching <b>Falcon Heavy</b> right now, we'll update you shortly.</b></p>
+          </div>
+
+        <h1>News</h1>
+        <div class="card-group">
+          <div class="card" style="width: 18rem;">
+            <img src="img/launch.jpg" class="card-img-top" alt="launch">
+            <div class="card-body">
+              <h5 class="card-text">T minus zero <button type="button" class="btn btn-primary"><i class="fa-solid fa-clock fa-sm"></i></button></h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptatem eum, illo quis eligendi. </p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; margin-left: 5px;">
+            <img src="img/oil.jpg" class="card-img-top" alt="oil">
+            <div class="card-body">
+              <h5 class="card-text">Oil <button type="button" class="btn btn-primary"><i class="fa-solid fa-fire fa-sm"></i></button></h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptatem eum, illo quis eligendi. </p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; margin-left: 5px;">
+            <img src="img/spacex.jpg" class="card-img-top" alt="orbit">
+            <div class="card-body">
+              <h5 class="card-text">Orbit <button type="button" class="btn btn-primary"><i class="fa-solid fa-shuttle-space fa-rotate-270 fa-sm"></i></i></button></h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptatem eum, illo quis eligendi. </p>
+            </div>
+          </div>
+        </div>
+       <br>
+      <div style="float: left;">
+        <h1>Vehicles</h1>
+        <ul class="list-group">
+          <li class="list-group-item">Falcon 1 <i class="fa-solid fa-rocket fa-sm"></i></li>
+          <li class="list-group-item active" aria-current="true">Falcon 9</li>
+          <li class="list-group-item">Falcon Heavy</li>
+          <li class="list-group-item">Dragon 2 (Crew dragon) <i class="fa-solid fa-rocket fa-sm"></i></li>
+          <li class="list-group-item">Starship</li>
+          <li class="list-group-item">Super Heavy</li>
+        </ul>
+    </div>
+    <br>
+
+    <div style="float: right;">
+      <h1>Projects</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Starship
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Starship represents a bold leap in space exploration, aiming to create a fully reusable spacecraft capable of carrying humans to the Moon, Mars, and beyond.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Starlink
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Mars
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Research & Development
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    
+    <div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h1>Next Launch</h1>
+      <p>When do we launch?</p>
+      <table class="table">
+        <thead class="table-dark">
+          <th>Launch</th>
+          <th>Project</th>
+          <th>Location</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>4 nov 2023 @ 09:00 AM</td>
+            <td>Falcon 9</td>
+            <td>Cape Canaveral</td>
+          </tr>
+
+          <tr>
+            <td>9 nov 2023 @ 10:00 AM</td>
+            <td>Dragon</td>
+            <td>Cape Canaveral</td>
+          </tr>
+
+          <tr>
+            <td>17 nov 2023 @ 04:00 AM</td>
+            <td>Starship</td>
+            <td>Starbase</td>
+          </tr>
+
+          <tr>
+            <td>21 nov 2023 @ 08:00 AM</td>
+            <td>Starlink</td>
+            <td>Kennedy Space Center</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+
+    <h1>Launch site</h1>
+    <p>Where we launch our rockets into space.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.154396886954!2d4.961399!3d51.160942899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c14c011b4bcb87%3A0xb5b970e9f2a6ce42!2sThomas%20More%20-%20Campus%20Geel!5e0!3m2!1sen!2sbe!4v1699351062426!5m2!1sen!2sbe" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  
+
+<!--Footer-->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="#" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Thomas More</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a href="https://twitter.com/ThomasMoreBE"><img class="text-body-secondary" src="img/x-twitter.svg" alt="twitter"></a><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></li>
+          <li class="ms-3"><a href="https://www.instagram.com/thomasmore.be/?hl=en"><img class="text-body-secondary" src="img/instagram.svg" alt="instagram"></a><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></li>
+          <li class="ms-3"> <a href="#"><img class="text-body-secondary" src="img/discord.svg" alt="facebook"></a><svg class="bi" width="24" height="24"><use xlink:href="#discord"></use></svg></li>
+        </ul>
+      </footer>
+    </div>
+      
+
+
+</body>
+</html>
